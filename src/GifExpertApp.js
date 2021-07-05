@@ -18,7 +18,6 @@ export const GifExpertApp = () => {
             <h2>Gif Expert</h2>
             <hr />
             <AddCategory setCategories={setCategories} categories ={categories} />
-            <button>Agregar</button>
 
             {
                 categories.map(category=>{
